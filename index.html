@@ -8,13 +8,13 @@
     <p>Розв'язуємо квадратне рівняння за формулою:<br>
     x_{1,2} = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}.</p>
         <script>
-            var a = prompt('Вкажи "а"', 5);
-            var b = prompt('Вкажи "b"', 20);
-            var c = prompt('Вкажи "c"', -5);
+            var a = prompt('Вкажи "а"', 1);
+            var b = prompt('Вкажи "b"', 4);
+            var c = prompt('Вкажи "c"', 3);
             var d = b*b-4*a*c;
             alert ('Дискримінант = ' +d);
-            var x1 = -(b+Math.sqrt(d))/(2*a);
-            var x2 = -(b-Math.sqrt(d))/(2*a);
+            var x1 = (-b+Math.sqrt(d))/(2*a);
+            var x2 = (-b-Math.sqrt(d))/(2*a);
             alert ('x1 = ' +x1 + ',   x2 = ' +x2)
         </script>
     <p>От і казочці кінець</p>
